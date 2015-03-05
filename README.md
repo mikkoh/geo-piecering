@@ -21,7 +21,7 @@ A simple usage example with default values being passed as settings:
 var geoPieceRing = require('geo-piecering');
 
 // geo will be a Object will two properties:
-// points - the vertices
+// positions - the vertices
 // cells - the indices to draw the piece ring
 var geo = geoPieceRing( {
     cellSize: 3, // 1 == points, 2 == lines, 3 == triangles
